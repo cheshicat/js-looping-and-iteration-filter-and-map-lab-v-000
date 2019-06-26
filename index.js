@@ -25,4 +25,3 @@ function exactMatch (drivers, matches) {
 function exactMatchToList (drivers, matches) {
   return exactMatchToList (drivers, matches)
 }
-

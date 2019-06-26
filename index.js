@@ -9,4 +9,3 @@ function driverNamesWithRevenueOver (drivers, revenue) {
     return driver.revenue > revenue;
   });
 }
-

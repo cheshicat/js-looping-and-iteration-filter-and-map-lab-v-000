@@ -23,13 +23,6 @@ function exactMatch (drivers, matches) {
 }
 
 function exactMatchToList (drivers, matches) {
-  return drivers.filter (function (driver) {
-    let driverMatch = false;
-
-    for (const key in matches) {
-      driverMatch = driver[key] === matches [key];
-    }
-
-    return driverMatch;
-  });
+  return exactMatchToList (drivers, matches)
 }
+
